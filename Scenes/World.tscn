@@ -62,7 +62,6 @@ __meta__ = {
 polygon = PoolVector2Array( 0, 640, 0, 0, 1024, 0, 1024, 640, 1088, 640, 1088, -64, -64, -64, -64, 640, 0, 640 )
 
 [node name="Tiles" type="Node" parent="."]
-editor/display_folded = true
 
 [node name="Gray Tiles" type="Node" parent="Tiles"]
 editor/display_folded = true
@@ -266,3 +265,53 @@ position = Vector2( 864, 113.148 )
 
 [node name="Tile16" parent="Tiles/Green Tiles" instance=ExtResource( 5 )]
 position = Vector2( 928, 113.148 )
+
+[node name="Purple Tiles" type="Node" parent="Tiles"]
+
+[node name="Tile" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 992, 83.855 )
+
+[node name="Tile2" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 32, 83.855 )
+
+[node name="Tile3" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 96, 83.855 )
+
+[node name="Tile4" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 160, 83.855 )
+
+[node name="Tile5" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 224, 83.855 )
+
+[node name="Tile6" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 288, 83.855 )
+
+[node name="Tile7" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 352, 83.855 )
+
+[node name="Tile8" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 416, 83.855 )
+
+[node name="Tile9" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 480, 83.855 )
+
+[node name="Tile10" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 544, 83.855 )
+
+[node name="Tile11" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 608, 83.855 )
+
+[node name="Tile12" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 672, 83.855 )
+
+[node name="Tile13" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 736, 83.855 )
+
+[node name="Tile14" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 800, 83.855 )
+
+[node name="Tile15" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 864, 83.855 )
+
+[node name="Tile16" parent="Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 928, 83.855 )
